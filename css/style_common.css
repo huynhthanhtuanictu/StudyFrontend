@@ -1,0 +1,44 @@
+.view {
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   height: 100%;
+   margin-bottom: 20px;
+}
+.mask{
+	height: 100%;
+	width: 100%;
+}
+.view .mask,.view .content {
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.hight-img{
+	margin-top: 42%;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view  h2{
+	font-family: 'proxima_nova_ltsemibold', serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	margin-top: 26%;
+}
+.view p {
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 12px;
+   margin-top: 3px;
+   position: relative;
+   color: #fff;
+   text-align: center;
+}
