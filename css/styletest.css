@@ -76,11 +76,47 @@ nav{
 	z-index: 10;
 	margin-bottom: 100px;
 }
+.carousel-caption{
+	min-height: 100%;
+}
+.carousel-caption  img,.text{
+	display: block;
+	margin: 0px auto;
+	width: auto;
+	height: auto;
+}
+.carousel-caption .text{
+	margin-top: 3%;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	width: 70%;
+}
+.carousel-caption .icon{
+	margin-top: 23%;
+}
+.carousel-caption .title{
+	/*margin-top: 50px;*/
+	margin-top: 4%;
+}
+.carousel-caption .line{
+	/*margin-top: 40px;*/
+	margin-top: 3%;
+}
+.carousel-caption .icon-footer{
+	position: absolute;
+	bottom: 0;
+	left: 49%;
+}
 .carousel-control{
 	visibility: hidden;
 }
 .carousel:hover .carousel-control{
 	visibility: visible;
+}
+.carousel-caption{
 }
 /* Section info */
 .infor{
@@ -237,6 +273,7 @@ nav{
 	border: #fff solid 1px;
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
+	letter-spacing: 0.5px;
 	width: 22vw;
 }
 .sign-up .content .button{
@@ -249,6 +286,7 @@ nav{
 	border:  solid 2px #b46d70;
 	color: #fff;
 	text-transform: uppercase;
+	letter-spacing: 0.5px;
 }
 .sign-up .content .feedback:focus{
 	border: solid 1px #fff;
@@ -265,21 +303,25 @@ nav{
 .sign-up .feedback::-webkit-input-placeholder {
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
+	letter-spacing: 0.5px;
 }
 
 .sign-up .feedback:-moz-placeholder { /* Firefox 18- */
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
+	letter-spacing: 0.5px;
 }
 
 .sign-up .feedback::-moz-placeholder {  /* Firefox 19+ */
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
+	letter-spacing: 0.5px;
 }
 
 .sign-up .feedback:-ms-input-placeholder {  
     font-family: 'proxima_nova_rgregular';
 	font-size:15px;
+	letter-spacing: 0.5px;
 }
 /* End section sign-up */
 
