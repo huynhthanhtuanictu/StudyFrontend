@@ -90,9 +90,7 @@
 	@media only screen and (max-width : 320px){
  
 	}
-	
-	
-	
+
 html,
 body{
 	overflow-x: hidden;
@@ -153,7 +151,6 @@ nav{
 .carousel-caption  img{
 	display: block;
 	margin: 0px auto;
-	max-width: 15%;
 	height: auto;
 }
 .carousel-caption .text{
@@ -286,7 +283,11 @@ nav{
 .features{
 	margin-top: 80px;
 }
+/*
 .features .row{
+	margin-bottom:60px;
+} */
+.features .sub-row{
 	margin-bottom:60px;
 }
 .features .title{
@@ -327,7 +328,6 @@ nav{
 }
 .sign-up .content .form-inline{
 	margin-top: 20px;
-
 }
 .sign-up .content .title{
 	color: #fff;
@@ -357,6 +357,7 @@ nav{
 	font-size:15px;
 	letter-spacing: 0.5px;
 	width: 22vw;
+	margin-bottom: 15px;
 }
 .sign-up .content .button{
 	font-family: 'proxima_nova_ltsemibold', sans-serif;
