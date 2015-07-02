@@ -166,7 +166,7 @@ img{
 	font-size: 13px;
 	text-transform: uppercase;
 	color: #fff;
-	
+	line-height: 140px;
 }
 .nav>li>a:hover{
 	/* border-bottom: 3px solid #fff; */
@@ -403,10 +403,6 @@ nav{
 }
 .sign-up .content .feedback{
 	background-color: transparent;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding: 12px 25px;
 	color: #fff;
 	border: #fff solid 1px;
@@ -428,17 +424,14 @@ nav{
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
-.sign-up .content .feedback:focus{
-	border: solid 1px #fff;
+.sign-up .content input[type=email]:focus{
+	border: solid 1px #b46d70;
 }
-.sign-up .content .feedback:visited{
-	border: solid 1px #fff;
+.sign-up .content input[type=email]:active{
+	border: solid 1px #b46d70;
 }
-.sign-up .content .feedback:active{
-	border: solid 1px #fff;
-}
-.sign-up .content .feedback:hover{
-	border: solid 1px #fff;
+.sign-up .content input[type=email]:hover{
+	border: solid 1px #b46d70;
 }
 .sign-up .feedback::-webkit-input-placeholder {
 	font-family: 'proxima_nova_rgregular';
