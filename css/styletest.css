@@ -185,10 +185,7 @@ nav{
 .quotes{
 	background-image: url('../images/main content/bg2.jpg');
 	background-position: center center;
-	/*
 	background-attachment: fixed;
-	background-size: cover;
-	*/
 	margin-bottom: 82px;
 }
 
@@ -197,9 +194,10 @@ nav{
 	font-style: italic;
 	font-size: 48px;
 	color: #fff;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.5px;
 	line-height: 67px;
-	padding: 212px 0px;
+	padding-top: 217px;
+	padding-bottom: 206px;
 	
 }
 /* End section quotes */
@@ -309,8 +307,14 @@ nav{
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
 	letter-spacing: 0.5px;
-	width: 22vw;
+	width: 70%;
 	margin-bottom: 15px;
+}
+.sign-up .content .feedback:active{
+	border: solid 1px #b46d70;
+}
+.sign-up .content .feedback:hover{
+	border: solid 1px #b46d70;
 }
 .sign-up .content .button{
 	font-family: 'proxima_nova_ltsemibold', sans-serif;
@@ -323,16 +327,9 @@ nav{
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
+	width: 20%;
 }
-.sign-up .content input[type=email]:focus{
-	border: solid 1px #b46d70;
-}
-.sign-up .content input[type=email]:active{
-	border: solid 1px #b46d70;
-}
-.sign-up .content input[type=email]:hover{
-	border: solid 1px #b46d70;
-}
+
 .sign-up .feedback::-webkit-input-placeholder {
 	font-family: 'proxima_nova_rgregular';
 	font-size:15px;
