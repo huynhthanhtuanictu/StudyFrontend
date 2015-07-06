@@ -184,7 +184,11 @@ nav{
 /* Section quotes */
 .quotes{
 	background-image: url('../images/main content/bg2.jpg');
-	padding: 200px 0px;
+	background-position: center center;
+	/*
+	background-attachment: fixed;
+	background-size: cover;
+	*/
 	margin-bottom: 82px;
 }
 
@@ -193,7 +197,10 @@ nav{
 	font-style: italic;
 	font-size: 48px;
 	color: #fff;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.2px;
+	line-height: 67px;
+	padding: 212px 0px;
+	
 }
 /* End section quotes */
 
@@ -212,13 +219,13 @@ nav{
 	font-family: 'proxima_nova_ltsemibold';
 	font-size: 48px;
 	letter-spacing: 0.5px;
-	margin-bottom: -5px;
+	margin-bottom: -7px;
 }
 .portfolio .header .sub-title{
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	font-size: 20px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 .portfolio .header .content{
 	font-family: 'proxima_nova_rgregular', serif;
