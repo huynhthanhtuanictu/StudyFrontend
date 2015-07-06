@@ -1,5 +1,7 @@
 .view {
+	/*
 	float: left;
+	*/
 	overflow: hidden;
 	position: relative;
 	text-align: center;

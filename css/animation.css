@@ -46,6 +46,7 @@
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
 }
+/*
 .view-first:hover img {
 	-webkit-transform: scale(1.1,1.1);
 	-moz-transform: scale(1.1,1.1);
@@ -53,6 +54,8 @@
 	-ms-transform: scale(1.1,1.1);
 	transform: scale(1.1,1.1);
 }
+
+*/
 .view-first:hover .mask {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
