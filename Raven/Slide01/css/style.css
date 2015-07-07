@@ -1,0 +1,27 @@
+img{
+	max-width: 100%;
+}
+header{
+	background-image: url('../images/header/bg1.jpg');
+	background-position: center center;
+	background-size: 100% 100%;
+}
+header>.nav>ul>li>a{
+	position: absolute;
+	top:0;
+	left:0;
+}
+header .header-content{
+	padding: 500px 0px;
+}
+header .header-content h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	letter-spacing: 1px;
+}
+header .header-content p{
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	line-height: 29px;
+}
