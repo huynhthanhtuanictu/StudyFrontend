@@ -274,6 +274,7 @@ nav{
 .features .item:hover{
 	transition: background-color 1s ease;
 	background-color: #b46d70;
+	color: #fff;
 }
 /* End section features */
 
