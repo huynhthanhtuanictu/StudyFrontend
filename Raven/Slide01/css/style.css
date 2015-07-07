@@ -1,27 +1,130 @@
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/custom-fonts/latoblack/lato-black.eot');
+    src: url('../fonts/custom-fonts/latoblack/lato-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/custom-fonts/latoblack/lato-black.woff2') format('woff2'),
+         url('../fonts/custom-fonts/latoblack/lato-black.woff') format('woff'),
+         url('../fonts/custom-fonts/latoblack/lato-black.ttf') format('truetype'),
+         url('../fonts/custom-fonts/latoblack/lato-black.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/custom-fonts/latolight/lato-light-webfont.eot');
+    src: url('../fonts/custom-fonts/latolight/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/custom-fonts/latolight/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/custom-fonts/latolight/lato-light-webfont.woff') format('woff'),
+         url('../fonts/custom-fonts/latolight/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/custom-fonts/latolight/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.eot');
+    src: url('montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff'),
+         url('montserrat-bold-webfont.ttf') format('truetype'),
+         url('montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	overflow-x:hidden;
+	
+}
+.container-outside{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-outside {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-outside {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-outside {
+    width: 1620px;
+  }
+}
+.container-outside1{
+	padding: 0% 0.078125%;
+}
 img{
 	max-width: 100%;
 }
 header{
-	background-image: url('../images/header/bg1.jpg');
+	background-image: url('../images/bg1.jpg');
 	background-position: center center;
 	background-size: 100% 100%;
 }
-header>.nav>ul>li>a{
+.navbar-fixed-top{
 	position: absolute;
 	top:0;
-	left:0;
+	margin-top: 16px;
+}
+.navbar-inner{
+	
+}
+.padding-0{
+	padding: 0px;
 }
 header .header-content{
 	padding: 500px 0px;
+	text-align: center;
 }
 header .header-content h3{
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
+	font-family: 'latoblack', sans-serif;
+	line-height: 100px;
 	font-size: 100px;
-	letter-spacing: 1px;
+	letter-spacing: -0.5px;
+	margin-bottom: 43px;
 }
 header .header-content p{
+	font-family: 'latolight', sans-serif;
 	font-size: 18px;
 	letter-spacing: 0.2px;
 	line-height: 29px;
 }
+header .header-content a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'latoblack', sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.page1{
+	background-image: url('../images/bg2-1.jpg');
+	background-position: center center;
+}
+
+.page1 .content{
+	padding-top: 156px;
+}
+.page1 .content .title{
+	font-family: 'montserratbold', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	line-height: 20px;
+	color: #999999;
+}
+.page1 .footer{
+	
+}
+
+
