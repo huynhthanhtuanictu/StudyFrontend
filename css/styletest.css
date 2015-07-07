@@ -358,6 +358,45 @@ nav{
 	font-size:15px;
 	letter-spacing: 0.5px;
 }
+
+.sign-up input[type="text"]:focus,
+.sign-up input[type="password"]:focus,
+.sign-up input[type="datetime"]:focus,
+.sign-up input[type="datetime-local"]:focus,
+.sign-up input[type="date"]:focus,
+.sign-up input[type="month"]:focus,
+.sign-up input[type="time"]:focus,
+.sign-up input[type="week"]:focus,
+.sign-up input[type="number"]:focus,
+.sign-up input[type="email"]:focus,
+.sign-up input[type="url"]:focus,
+.sign-up input[type="search"]:focus,
+.sign-up input[type="tel"]:focus,
+.sign-up input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #b46d70;
+  box-shadow: 0 1px 1px #b46d70 inset, 0 0 8px #b46d70;
+  outline: 0 none;
+}
+.sign-up input[type="text"]:hover,
+.sign-up input[type="password"]:hover,
+.sign-up input[type="datetime"]:hover,
+.sign-up input[type="datetime-local"]:hover,
+.sign-up input[type="date"]:hover,
+.sign-up input[type="month"]:hover,
+.sign-up input[type="time"]:hover,
+.sign-up input[type="week"]:hover,
+.sign-up input[type="number"]:hover,
+.sign-up input[type="email"]:hover,
+.sign-up input[type="url"]:hover,
+.sign-up input[type="search"]:hover,
+.sign-up input[type="tel"]:hover,
+.sign-up input[type="color"]:hover,
+.uneditable-input:hover {   
+  border-color: #b46d70;
+  box-shadow: 0 1px 1px #b46d70 inset, 0 0 8px #b46d70;
+  outline: 0 none;
+}
 /* End section sign-up */
 
 /*  Section brand-logo */
