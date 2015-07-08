@@ -1,3 +1,8 @@
+.view{
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
 .mask{
 	position: absolute;
 	top: 0;
@@ -33,7 +38,6 @@
 	
 	
 }
-
 .view img {
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -82,7 +86,13 @@
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-
+.view:hover img {
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}
 .view:hover .mask {
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
