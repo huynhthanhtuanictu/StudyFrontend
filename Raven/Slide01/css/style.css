@@ -126,5 +126,26 @@ header .header-content a{
 .page1 .footer{
 	
 }
+.page2{
+	background-color: #000;
+}
+.page2 .list-inline{
+	margin: 0;
+	padding: 30px 0px;
+}
+.page2 .list-inline li a{
+	font-family: 'latoblack', sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	color: #aaaaaa;
+	margin-left: 43px;
+}
+.page2 .list-inline li a:hover{
+	color: #fff;
+}
 
 
