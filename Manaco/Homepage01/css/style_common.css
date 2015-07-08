@@ -4,9 +4,6 @@
 	text-align: center;
 	margin-bottom: 30px;
 }
-.mask-wrap{
-	position: relative;
-}
 .mask{
 	position: absolute;
 	top: 0;

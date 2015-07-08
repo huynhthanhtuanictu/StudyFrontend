@@ -35,7 +35,7 @@
 
 }
 body{
-	background-image: url('../images/bg2-1.jpg');
+	background-image: url('../images/bg.jpg');
 }
 img{
 	max-width: 100%;
@@ -50,7 +50,12 @@ img{
 	
 }
 .padding-0{
-	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.margin-0{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 header{
 	background-color: #eeeeee;
@@ -78,8 +83,7 @@ header .content a{
 	text-transform: uppercase;
 }
 .page1{
-	
-	
+
 }
 
 .page1 .content{
@@ -115,16 +119,39 @@ header .content a{
 }
 
 .page2{
+	background-image: url('../images/bg2.png');
+	padding: 100px 0px;
 	
+}
+.page2  h2{
+	font-family: 'montserratbold', sans-serif;
+	line-height: 20px;
+	font-size: 16px;
+	letter-spacing: 2.4px;
+	color: #999999;
+}
+.page2  h3{
+	font-family: 'latoblack', sans-serif;
+	line-height: 60px;
+	font-size: 60px;
+	letter-spacing: -0.4px;
+	color: #1f1f1f;
+}
+.page2  p{
+	font-family: 'latolight', sans-serif;
+	line-height: 27px;
+	font-size: 17px;
+	letter-spacing: 0.4px;
+	color: #444444;
 }
 .page3{
 	background-color: #000;
 }
-.page3 .list-inline{
+.page3  .list-inline{
 	margin: 0;
 	padding: 30px 0px;
 }
-.page3 .list-inline li a{
+.page3  .list-inline li a{
 	font-family: 'latoblack', sans-serif;
 	font-size: 12px;
 	line-height: 15px;
@@ -133,13 +160,24 @@ header .content a{
 	text-decoration: none;
 	cursor: pointer;
 	color: #aaaaaa;
-	margin-left: 30px;
+	margin-left: 10px;
 	padding: 13px;
+	border: 3px solid transparent;
 }
 .page3 .list-inline li a:hover{
 	color: #fff;
-	border: 3px inset #fff;
+	border: 3px solid #fff;
 	
+}
+
+.page4{
+	background-color: #eeeeee;
+	padding:200px 0;
+}
+.page4 p{
+	font-size: 28px;
+	line-height: 45px;
+	letter-spacing: 0px;
 }
 
 
